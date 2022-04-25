@@ -1,7 +1,9 @@
+import Counter from './components/Couner/Conter';
+
 function App() {
   return (
     <div>
-      <p1>Hello World</p1>
+      <Counter initialValue={10} />
     </div>
   );
 }
