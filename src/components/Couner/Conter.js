@@ -1,7 +1,7 @@
 import React from 'react';
 import Controls from './Controls';
 import Value from './Value';
-import './Counter.css';
+import s from './Counter.module.css';
 
 class Counter extends React.Component {
   static defaultProps = {
@@ -28,7 +28,7 @@ class Counter extends React.Component {
 
   render() {
     return (
-      <div className="Counter">
+      <div className={s.counter}>
         <Value value={this.state.value} />
         <Controls
           onIncrement={this.hendeleIncrement}
