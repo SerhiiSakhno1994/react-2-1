@@ -11,8 +11,16 @@
   top: 100%;
   left: 0;
   width: 100%;
-  padding: 20px;
+  padding: 20px 0;
   text-align: center;
   background-color: teal;
   color: white;
+}
+
+.toggle {
+  background-color: teal;
+}
+.toggle:hover {
+  background-color: tomato;
+  width: 100px;
 }
